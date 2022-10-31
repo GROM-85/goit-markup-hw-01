@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>HW-01</title>
         <style>
-            #webstudio{
+            nav h4 {
                 position: absolute;
                 width: 145px;
                 height: 31px;
@@ -20,8 +20,29 @@
 
                 letter-spacing: 0.03em;
 
-                color: #2196F3;          
+                color: #2196F3;
 
+            }
+            section {
+                position: absolute;
+                width: 1600px;
+                height: 600px;
+                left: 0px;
+                top: 80px;
+
+                background: #2F303A;
+            }
+
+            section button{
+                position: absolute;
+                width: 200px;
+                height: 50px;
+                left: 700px;
+                top: 430px;
+
+                background: #2196F3;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                border-radius: 4px;
             }
             .logo{
                position:absolute;
@@ -29,7 +50,7 @@
                height:120px;
                left:452px;
                top:280px;
-               
+
                font-family:'Roboto';
                font-style: normal;
                font-weight:900;
@@ -40,24 +61,28 @@
                text-transform: uppercase;
                color: #FFFFFF;
             }
+            
         </style>
     </head>
 <body>
 
     <header>
-        <nav>
-            <a><span id="webstudio">WebStudio</span></a>
-            <span>Studio</span>
-            <span>Portfolio</span>
-            <span>Contacts</span>
-            <span>Mail</span>
-            <span>Phone</span>
+        <nav>            
+                <h4 id="webstudio">WebStudio</h4>            
+                <a href="#">Studio</a>          
+                <h5>Portfolio</h5>
+                <h5>Contacts</h5>
+                <a href="#">info@devstudio.com</a>
+                <h5>+1 212-772-4150</h5> 
         </nav>
-        <div class="logo">
+        
+        <section class="logo">
             <h1>Effective solution for<br> your business</h1>
-        </div>
+            <button type="button">Request our service</button>
+        </section>
     </header>
     <main>
+
         <h3>What we do</h3>
 
         <img src="images/img1.jpg"alt="first" width="370" height="294">
@@ -67,14 +92,14 @@
 
         <h3>Our Team</h3>
 
-        <img src="images/ProdDes.jpg"alt="first" width="270" height="260">    
-        <img src="images/FrontDev.jpg"alt="first" width="270" height="260">    
-        <img src="images/Market.jpg"alt="first" width="270" height="260">    
-        <img src="images/UI Des.jpg"alt="first" width="270" height="260">    
+        <img src="images/ProdDes.jpg"alt="first" width="270" height="260">
+        <img src="images/FrontDev.jpg"alt="first" width="270" height="260">
+        <img src="images/Market.jpg"alt="first" width="270" height="260">
+        <img src="images/UI Des.jpg"alt="first" width="270" height="260">
 
     </main>
 
-    
+
 
 <footer>
     Footer
@@ -82,3 +107,4 @@
 
 </body>
 </html>
+
